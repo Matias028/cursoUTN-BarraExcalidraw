@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excalidraw</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <button class="button-list"><i class="bi bi-list"></i></button>
+    <main class="menu">
+        <div class="menu__container">
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text"> 
+                        <i class="bi bi-folder"></i>
+                        <p>Abrir</p>
+                    </div>
+                    <div class="menu__container__opcions__text__shortcut">
+                        <p>Ctrl+O</p>
+                    </div>
+                </button>
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text"> 
+                        <i class="bi bi-download">
+                        </i><p>Guardar en...</p>
+                    </div>
+                </button>
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text"> 
+                        <i class="bi bi-image"></i>
+                        <p>Exportar imagen...</p>
+                    </div>
+                    <div class="menu__container__opcions__text__shortcut">
+                        <p>Ctrl+Shift+P</p>
+                    </div>
+                </button>
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text"> 
+                        <i class="bi bi-people"></i>
+                        <p>Colaboracion en directo...</p>
+                    </div>
+                </button>
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text__special"> 
+                        <i class="bi bi-lightning"></i>
+                        <p>Command palette</p>
+                    </div>
+                    <div class="menu__container__opcions__text__shortcut__special">
+                        <p>Ctrl+/</p>
+                    </div>
+                </button>
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text"> 
+                        <i class="bi bi-search"></i>
+                        <p>Find on canvas</p>
+                    </div>
+                    <div class="menu__container__opcions__text__shortcut">
+                        <p>Ctrl+F</p>
+                    </div>
+                </button>
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text">
+                        <i class="bi bi-question-circle"></i>
+                        <p>Ayuda</p>
+                    </div>
+                    <div class="menu__container__opcions__text__shortcut">
+                        <p>?</p>
+                    </div>
+                </button>
+                <button href="#" class="menu__container__opcions">
+                    <div class="menu__container__opcions__text"> 
+                        <i class="bi bi-trash3"></i>
+                        <p>Limpiar lienzo y reiniciar el color de fondo</p>
+                    </div>
+                </button>
+        </div>
+        <div class="menu__container__social">
+            <button href="#" class="menu__container__opcions">
+                <div class="menu__container__opcions__text"> 
+                    <i class="bi bi-pencil-fill"></i>
+                    <p>Excalidraw+</p>
+                </div>
+            </button>
+            <button href="#" class="menu__container__opcions">
+                <div class="menu__container__opcions__text"> 
+                    <i class="bi bi-github"></i>
+                    <p>GitHub</p>
+                </div>
+            </button>
+            <button href="#" class="menu__container__opcions">
+                <div class="menu__container__opcions__text"> 
+                    <i class="bi bi-twitter-x"></i>
+                    <p>Follow us</p>
+                </div>
+            </button>
+            <button href="#" class="menu__container__opcions">
+                <div class="menu__container__opcions__text"> 
+                    <i class="bi bi-discord"></i>
+                    <p>Discord chat</p>
+                </div>
+            </button>
+            <button href="#" class="menu__container__opcions">
+                <div class="menu__container__opcions__text__special"> 
+                    <i class="bi bi-box-arrow-in-left"></i>
+                    <p>Sign up</p>
+                </div>
+            </button>
+        </div>
+        <div class="menu__container__theme">
+            <div class="menu__container__opcions__text"> 
+                    <p>Theme</p>
+            </div>
+            <div class="menu__container__theme__button__container">
+                <button href="#" class="menu__container__theme__button">
+                    <i class="bi bi-brightness-high"></i>
+                <button href="#" class="menu__container__theme__button">
+                    <i class="bi bi-moon"></i> 
+                </button>
+                <button class="menu__container__theme__button">
+                    <i class="bi bi-pc-display-horizontal"></i>
+                </button>
+            </div>
+        </div>
+        <div class="menu__container__language">
+            <form action="#" method="POST">
+                <select id="idioma" name="idioma" class="menu__container__language__select">
+                    <option value="es" class="menu__container__language__select__opcions">Español</option>
+                    <option value="en" class="menu__container__language__select__opcions">Inglés</option>
+                    <option value="fr" class="menu__container__language__select__opcions">Francés</option>                  
+                    <option value="en" class="menu__container__language__select__opcions">Portugues</option>
+                    <option value="fr" class="menu__container__language__select__opcions">Francés</option>                    
+                    <option value="en" class="menu__container__language__select__opcions">Inglés</option>
+                    <option value="fr" class="menu__container__language__select__opcions">Francés</option>
+                </select>
+            </form>
+        </div>
+        <div class="menu__container__background">
+            <p class="menu__container__background__text">Fondo del lienzo</p>
+        </div>
+        <div class="menu__container__background__conteiner">
+            <button href="#" class="menu__container__background__color1"></button>
+            <button href="#" class="menu__container__background__color2"></button>            
+            <button href="#" class="menu__container__background__color3"></button>
+            <button href="#" class="menu__container__background__color4"></button>
+            <button href="#" class="menu__container__background__color5"></button>
+            <button href="#" class="menu__container__background__color6"></button>
+        </div>
+    </main>
+</body>
+</html>
